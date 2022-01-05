@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #95A5A6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family:'Shippori Antique', sans-serif;
+}
+
+h1 {
+    font-size: 3.7em;
+    margin: 30px 0 30px 0;
+    color: white;
+}
+
+.counter {
+    border: 2px solid #36454F;
+    background-color: blue;
+    height: 27em;
+    width: 25em;
+    border-radius: 8px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+}
+
+.counter-value {
+    background-color:  #515A5A ;
+    opacity: 0.8;
+    color:white;
+    font-size: 5.6em;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #36454F;
+    border-radius: 3px;
+}
+
+.counter-controls {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-controls button {
+    margin: 0 0.4rem;
+}
+
+ button {
+    background-color: #F4D03F;
+    color:#36454F;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5em;
+    font-weight: 700;
+    display: flex;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    padding: 5px;
+    
+}
+
+
+#button-1,
+#button-2 {
+    background-color: white;
+    opacity: 0.8;
+}
+
+
+
+#button-1:hover,
+#button-2:hover {
+    background-color: #E74C3C ;
+    }    
+
+
+#button-3,
+#button-4 {
+    background-color: white;
+    opacity: 0.8;
+        }
+
+
+#button-3:hover,
+#button-4:hover  {
+    background-color: #2ECC71;
+        }
+
+
+
+button span {
+    display: block;
+}
+
+button[data-action='reset'] {
+    color: #F0FFFF;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.secondary-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -120px;
+    margin-left: 0.5;
+}
+
+
+
+
+
+
+
+
+/* Solo per Smartphone */
+
+
+@media only screen and (max-width: 767px) {
+
+
+h1 {
+    font-size: 3em;
+}
+
+.counter {
+    height: 20em;
+    width: 18em;
+}
+
+.counter-value {
+    font-size: 4em;
+
+}
+
+button {
+   font-size: 1em;
+  
+   
+}
+
+.counter-controls {
+    height: 200px;
+}
+
+
+.secondary-controls {
+    margin-top: -70px;
+}
+}
