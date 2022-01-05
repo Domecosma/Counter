@@ -1,4 +1,5 @@
 # The Counter
 
+Il mio contatore è struttorato da:
 
-### Progetto
+- [Display counter] (Display counter)
