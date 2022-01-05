@@ -39,3 +39,6 @@ Il bottone increase +2 ha la funzione di aggiungere di 2 unità al valore del co
 Se puntate con il cursore su un bottone il suo backgorund color cambierà in: rosso per i bottoni che sottraggono o verde per i bottoni che aggiungono.
 
 quando un bottone viene cliccato si verifica un effetto di trasformazione della grandezza del bottone in scala 0.9.
+
+# Link indirizzato al counter
+[The counter](https://domecosma.github.io/Counter/)
