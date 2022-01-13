@@ -20,6 +20,8 @@ h1 {
 }
 
 .counter {
+    position: relative;
+    top: 10px;
     border: 2px solid #36454F;
     background-color: blue;
     height: 27em;
@@ -30,6 +32,8 @@ h1 {
 }
 
 .counter-value {
+    position: relative;
+    bottom: 180px;
     background-color:  #515A5A ;
     opacity: 0.8;
     color:white;
@@ -57,21 +61,33 @@ h1 {
     color:#36454F;
     border: none;
     border-radius: 3px;
-    font-size: 1.5em;
+    font-size: 1.55em;
     font-weight: 700;
     display: flex;
     cursor: pointer;
     text-transform: uppercase;
     outline: none;
     padding: 5px;
-    
+    position: relative;
+    bottom: 89px;
+    left: 147px;
 }
 
 
-#button-1,
+#button-1{
+    position: relative;
+    bottom: 50px;
+    left: -9px;
+    background-color: white;
+    opacity: 0.8;
+}
+
 #button-3 {
     background-color: white;
     opacity: 0.8;
+    position: relative;
+    bottom: 110px;
+    left: 10px;
 }
 
 
@@ -82,10 +98,20 @@ h1 {
     }    
 
 
-#button-2,
+#button-2 {
+    position: relative;
+    bottom: 128px;
+    left: 246px;
+    background-color: white;
+    opacity: 0.8;
+}
+
 #button-4 {
     background-color: white;
     opacity: 0.8;
+    position: relative;
+    bottom: 148.5px;
+    left: 210px;
         }
 
 
@@ -94,11 +120,6 @@ h1 {
     background-color: #2ECC71;
         }
 
-
-
-button span {
-    display: block;
-}
 
 button[data-action='reset'] {
     color: #F0FFFF;
@@ -138,15 +159,41 @@ h1 {
 }
 
 .counter-value {
+    position: relative;
+    bottom: 120px;
     font-size: 4em;
 
 }
 
 button {
    font-size: 1em;
-  
-   
 }
+
+
+button[data-action='reset'] {
+    position: relative;
+    bottom: 78px;
+    left: 103px;
+}
+
+
+#button-2 {
+    position: relative;
+    bottom: 106.5px;
+    left: 180px;
+}
+
+#button-3 {
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+}
+
+#button-4 {
+    position: relative;
+    bottom: 128px;
+    left: 148px;
+        }
 
 .counter-controls {
     height: 200px;
