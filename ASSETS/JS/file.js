@@ -50,9 +50,6 @@ btnIncrease.textContent = 'INCREASE';
 div.appendChild(btnIncrease);
 
 
-// div class secondary
-
-const divSecondary = document.querySelector('.secondary-controls');
 
 // Button decrease -2
 
